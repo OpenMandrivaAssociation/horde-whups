@@ -1,9 +1,9 @@
 %define	module	whups
 %define	name	horde-%{module}
 %define version 1.0
-%define release %mkrel 2
+%define release %mkrel 3
 
-%define _requires_exceptions pear(Horde.*)
+%define _requires_exceptions pear(\\(Horde.*\\|Text/Flowed.php\\))
 
 Name:		%{name}
 Version:	%{version}
