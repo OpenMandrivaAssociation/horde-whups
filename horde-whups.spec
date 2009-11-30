@@ -1,7 +1,7 @@
 %define	module	whups
 %define	name	horde-%{module}
 %define version 1.0
-%define release %mkrel 5
+%define release %mkrel 6
 
 %define _requires_exceptions pear(\\(Horde.*\\|Text/Flowed.php\\))
 
@@ -37,18 +37,22 @@ cat > %{buildroot}%{_webappconfdir}/%{name}.conf <<EOF
 # %{name} Apache configuration file
 
 <Directory %{_datadir}/horde/%{module}/lib>
+    Order allow,deny
     Deny from all
 </Directory>
 
 <Directory %{_datadir}/horde/%{module}/locale>
+    Order allow,deny
     Deny from all
 </Directory>
 
 <Directory %{_datadir}/horde/%{module}/scripts>
+    Order allow,deny
     Deny from all
 </Directory>
 
 <Directory %{_datadir}/horde/%{module}/templates>
+    Order allow,deny
     Deny from all
 </Directory>
 EOF
