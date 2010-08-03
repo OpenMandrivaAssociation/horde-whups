@@ -1,7 +1,7 @@
 %define	module	whups
 %define	name	horde-%{module}
 %define version 1.0
-%define release %mkrel 7
+%define release %mkrel 8
 
 %define _requires_exceptions pear(\\(Horde.*\\|Text/Flowed.php\\))
 
@@ -16,7 +16,6 @@ Source0:	ftp://ftp.horde.org/pub/%{module}/%{module}-h3-%{version}.tar.gz
 Requires(post):	rpm-helper
 Requires:	horde >= 3.0
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Whups is Horde's ticket-tracking application. It is very flexible in design,
