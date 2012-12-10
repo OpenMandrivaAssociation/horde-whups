@@ -133,3 +133,38 @@ fi
 %config(noreplace) %{_sysconfdir}/horde/%{module}
 %{_datadir}/horde/%{module}
 
+
+
+%changelog
+* Tue Aug 03 2010 Thomas Spuhler <tspuhler@mandriva.org> 1.0-8mdv2011.0
++ Revision: 565219
+- Increased release for rebuild
+
+* Mon Jan 18 2010 Guillaume Rousse <guillomovitch@mandriva.org> 1.0-7mdv2010.1
++ Revision: 493354
+- rely on filetrigger for reloading apache configuration begining with 2010.1, rpm-helper macros otherwise
+- restrict default access permissions to localhost only, as per new policy
+
+* Sun Sep 20 2009 Guillaume Rousse <guillomovitch@mandriva.org> 1.0-5mdv2010.0
++ Revision: 445981
+- new setup (simpler is better)
+
+* Fri Sep 11 2009 Thierry Vignaud <tv@mandriva.org> 1.0-4mdv2010.0
++ Revision: 437889
+- rebuild
+
+* Sun Jan 25 2009 Guillaume Rousse <guillomovitch@mandriva.org> 1.0-3mdv2009.1
++ Revision: 333465
+- fix dependencies
+
+* Wed Nov 19 2008 Guillaume Rousse <guillomovitch@mandriva.org> 1.0-2mdv2009.1
++ Revision: 304682
+- fix automatic dependencies
+
+* Sun Oct 19 2008 Guillaume Rousse <guillomovitch@mandriva.org> 1.0-1mdv2009.1
++ Revision: 295349
+- import horde-whups
+
+
+* Sun Oct 19 2008 Guillaume Rousse <guillomovitch@mandriva.org> 1.0-1mdv2009.1
+- first mdv release
