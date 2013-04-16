@@ -1,7 +1,7 @@
 %define	module	whups
 %define	name	horde-%{module}
 %define version 1.0
-%define release %mkrel 8
+%define release: 9
 
 %define _requires_exceptions pear(\\(Horde.*\\|Text/Flowed.php\\))
 
@@ -120,10 +120,6 @@ fi
 %_post_webapp
 %endif
 
-%postun
-%if %mdkversion < 201010
-%_postun_webapp
-%endif
 
 %files
 %defattr(-,root,root)
