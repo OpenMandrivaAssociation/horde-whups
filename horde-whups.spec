@@ -1,13 +1,8 @@
 %define	module	whups
-%define	name	horde-%{module}
-%define version 1.0
-%define release: 10
 
-%define _requires_exceptions pear(\\(Horde.*\\|Text/Flowed.php\\))
-
-Name:		%{name}
-Version:	%{version}
-Release:	%{release}
+Name:		horde-%{module}
+Version:	1.0
+Release:	10
 Summary:	The Horde Horde Ticket Tracking System
 License:	GPL
 Group:		System/Servers
