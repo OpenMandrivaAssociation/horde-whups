@@ -3,7 +3,7 @@
 
 Name:		horde-%{module}
 Version:	1.0
-Release:	12
+Release:	13
 Summary:	The Horde Horde Ticket Tracking System
 
 License:	GPL
