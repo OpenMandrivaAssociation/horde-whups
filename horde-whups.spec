@@ -8,7 +8,7 @@ Summary:	The Horde Horde Ticket Tracking System
 
 License:	GPL
 Group:		System/Servers
-URL:		http://www.horde.org/%{module}
+URL:		https://www.horde.org/%{module}
 Source0:	ftp://ftp.horde.org/pub/%{module}/%{module}-h3-%{version}.tar.gz
 Requires(post):	rpm-helper
 Requires:	horde >= 3.0
